@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-650-80.jpg.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgb(72, 70, 70);
+    background-blend-mode:multiply;
+    color:white;
+    border-radius: 10px;
+}
+
+.logo{
+    background-color: transparent;
+    height: 7vh;
+
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 0.5rem;
+
+}
+button{
+    background-color: red;
+    color: white;
+    size: 20px;
+    padding:2px 10px;
+font-size:25px;
+border-radius: 10px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    size: 20px;
+    padding:0 5px;
+font-size:25px;
+border-radius: 10px;
+}
+option{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   
+}
+input{
+    width:30vw;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.getStarted{
+    padding: 0.7rem;
+    font-size:22px;
+    border-radius: 10px;
+}
+.main_heading_1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
